@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>Infrastructure_Layer</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application-Layer\Application-Layer.csproj" />
+    <ProjectReference Include="..\Domain-Layer\Domain-Layer.csproj" />
+  </ItemGroup>
+
+</Project>
